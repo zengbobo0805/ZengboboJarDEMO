@@ -1,1 +1,1 @@
-include ':eventBusDemo'
+include ':eventBusDemo', ':DensityDemo'
