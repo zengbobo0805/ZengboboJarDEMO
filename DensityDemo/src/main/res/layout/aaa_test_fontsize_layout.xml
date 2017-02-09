@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="汉字中"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_middle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="汉字大"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_big"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="汉字最大"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_large"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="middle"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_middle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="big"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_big"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="large"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_large"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="12"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_middle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="14"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_big"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="16"
+            android:textColor="#ffffff"
+            android:background="#aa0000ff"
+            android:textSize="@dimen/fontsize_large"/>
+
+    </LinearLayout>
+
+</LinearLayout>
