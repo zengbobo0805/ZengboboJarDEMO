@@ -1,0 +1,12 @@
+
+MainActivity----》FirstActivity
+02-16 11:01:27.225 2153-2153/com.activity.start I/System.out: MainActivity onPause
+02-16 11:01:27.235 2153-2153/com.activity.start V/ActivityThread: ActivityRecord{33f8aff3 token=android.os.BinderProxy@2f7124b0 {com.activity.start/com.activity.start.FirstActivity}}: app=android.app.Application@319aef7c, appName=com.activity.start, pkg=com.activity.start, comp={com.activity.start/com.activity.start.FirstActivity}, dir=/data/app/com.activity.start-1/base.apk
+02-16 11:01:27.235 2153-2153/com.activity.start V/ActivityThread: ActivityThread,callActivityOnCreate
+02-16 11:01:27.235 2153-2153/com.activity.start I/System.out: FirstActivity onCreate
+02-16 11:01:27.275 2153-2153/com.activity.start I/System.out: FirstActivity onStart
+02-16 11:01:27.275 2153-2153/com.activity.start I/System.out: FirstActivity onResume
+02-16 11:01:27.355 2153-2153/com.activity.start I/Timeline: Timeline: Activity_idle id: android.os.BinderProxy@2f7124b0 time:569431881
+02-16 11:01:27.715 2153-2153/com.activity.start I/System.out: MainActivity onStop
+
+
