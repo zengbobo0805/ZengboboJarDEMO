@@ -1,0 +1,5 @@
+http://blog.csdn.net/lmj623565791/article/details/27109467
+3、Timer执行周期任务时依赖系统时间
+Timer执行周期任务时依赖系统时间，如果当前系统时间发生变化会出现一些执行上的变化，ScheduledExecutorService基于时间的延迟，不会由于系统时间的改变发生执行变化。
+
+上述，基本说明了在以后的开发中尽可能使用ScheduledExecutorService(JDK1.5以后)替代Timer。
