@@ -1,1 +1,1 @@
-include ':EventBusDemo', ':DensityDemo', ':CloneableDemo', ':ExecutorsDemo', ':ActivityStartDemo', ':ToolbarDemo'
+include ':EventBusDemo', ':DensityDemo', ':CloneableDemo', ':ExecutorsDemo', ':ActivityStartDemo', ':ToolbarDemo', ':HotFixDemo'
