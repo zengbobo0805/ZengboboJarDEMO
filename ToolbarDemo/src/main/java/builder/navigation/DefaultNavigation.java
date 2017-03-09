@@ -19,7 +19,7 @@ import android.view.ViewGroup;
  * Email: 240336124@qq.com
  * Version：1.0
  */
-public class DefaultNavigation<D extends AbsNavigationBar.Builder.NavigationParams> extends
+public class DefaultNavigation extends
         AbsNavigationBar<DefaultNavigation.Builder.DefaultNavigationParams> {
     public DefaultNavigation(Builder.DefaultNavigationParams params) {
         super(params);
@@ -95,8 +95,8 @@ public class DefaultNavigation<D extends AbsNavigationBar.Builder.NavigationPara
         }
 
         @Override
-        public DefaultNavigation<NavigationParams> create() {
-            DefaultNavigation<NavigationParams> navigation = new DefaultNavigation<NavigationParams>(params);
+        public DefaultNavigation create() {
+            DefaultNavigation navigation = new DefaultNavigation(params);
             return navigation;
         }
 

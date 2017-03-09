@@ -1,1 +1,10 @@
-include ':EventBusDemo', ':DensityDemo', ':CloneableDemo', ':ExecutorsDemo', ':ActivityStartDemo', ':ToolbarDemo', ':HotFixDemo'
+
+include ':EventBusDemo'
+//include ':DensityDemo'
+//include ':CloneableDemo'
+//include ':ExecutorsDemo'
+//include ':ActivityStartDemo'
+include ':ToolbarDemo'
+//include ':HotFixDemo'
+include ':rxandroiddemo'
+include ':RxAndroidTestDeatilDemo'
