@@ -7,6 +7,9 @@ import android.widget.Toast;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.SynchronousQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
 
 public class MainActivity extends AppCompatActivity {
     private ExecutorService pool;
@@ -36,7 +39,20 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //http://blog.csdn.net/menxu_work/article/details/9358795
+                if (onClickThreadExecutor()) {
+                    return;
+                }
 
+                pool = new ThreadPoolExecutor(1, 2,
+                        0L, TimeUnit.MILLISECONDS,
+                        new SynchronousQueue<Runnable>(true));
+                for (int i = 0; i <2; i++) {
+                    if (!pool.isShutdown()) {
+                        Runnable runnable = new WorkRunnalbe(i, "onClickFixedThreadExecutor");
+                        pool.execute(runnable);
+                    }
+                }
             }
         });
     }
@@ -44,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
     private void onClickSingleThreadExecutor() {
         if (onClickThreadExecutor()) {
             return;
-        }else{
+        } else {
             pool = Executors.newSingleThreadExecutor();
         }
         for (int i = 0; i < 1000; i++) {
